@@ -7,6 +7,9 @@ print("3. Basic Level - Multiplication")
 print("4. Medium Level - Addition")
 print("5. Medium Level - Subtraction")
 print("6. Medium Level - Multiplication")
+print("7. Advance Level - Addition")
+print("8. Advance Level - Subtraction")
+print("9. Advance Level - Multiplication")
 
 
 level = int(input("Enter the level you want : "))
@@ -29,6 +32,7 @@ elif level == 3:
     MAX_OPERAND = 50
     TOTAL_PROBLEMS = 20
 
+
 elif level == 4:
     OPERATORS = ["-"]
     MIN_OPERAND = 2
@@ -47,6 +51,24 @@ elif level == 6:
     MAX_OPERAND = 50
     TOTAL_PROBLEMS = 20    
 
+
+elif level == 7:
+    OPERATORS = ["*"]
+    MIN_OPERAND = 2
+    MAX_OPERAND = 10
+    TOTAL_PROBLEMS = 10
+
+elif level == 8:
+    OPERATORS = ["*"]
+    MIN_OPERAND = 11
+    MAX_OPERAND = 30
+    TOTAL_PROBLEMS = 15
+
+elif level == 9:
+    OPERATORS = ["*"]
+    MIN_OPERAND = 30
+    MAX_OPERAND = 50
+    TOTAL_PROBLEMS = 20     
 
 
 else:
