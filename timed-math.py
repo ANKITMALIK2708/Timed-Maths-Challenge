@@ -1,29 +1,32 @@
 import random
 import time
 
-print("1. Basic Level")
-print("2. Medium Level")
-print("3. Advance Level")
+print("1. Basic Level - Addition")
+print("2. Basic Level - Subtraction")
+print("3. Basic Level - Multiplication")
+
 
 level = int(input("Enter the level you want : "))
 
 if level == 1:
-    OPERATORS = ["+", "-", "*"]
-    MIN_OPERAND = 3
-    MAX_OPERAND = 12
+    OPERATORS = ["+"]
+    MIN_OPERAND = 2
+    MAX_OPERAND = 10
     TOTAL_PROBLEMS = 10
 
 elif level == 2:
-    OPERATORS = ["+", "-", "*"]
-    MIN_OPERAND = 9
-    MAX_OPERAND = 19
+    OPERATORS = ["+"]
+    MIN_OPERAND = 11
+    MAX_OPERAND = 30
     TOTAL_PROBLEMS = 15
 
 elif level == 3:
-    OPERATORS = ["+", "-", "*","/"]
-    MIN_OPERAND = 18
-    MAX_OPERAND = 27
+    OPERATORS = ["+"]
+    MIN_OPERAND = 30
+    MAX_OPERAND = 50
     TOTAL_PROBLEMS = 20
+
+
 
 else:
     print("Enter wrong choice!!")
