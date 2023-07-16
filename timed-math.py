@@ -4,6 +4,9 @@ import time
 print("1. Basic Level - Addition")
 print("2. Basic Level - Subtraction")
 print("3. Basic Level - Multiplication")
+print("4. Medium Level - Addition")
+print("5. Medium Level - Subtraction")
+print("6. Medium Level - Multiplication")
 
 
 level = int(input("Enter the level you want : "))
@@ -25,6 +28,24 @@ elif level == 3:
     MIN_OPERAND = 30
     MAX_OPERAND = 50
     TOTAL_PROBLEMS = 20
+
+elif level == 4:
+    OPERATORS = ["-"]
+    MIN_OPERAND = 2
+    MAX_OPERAND = 10
+    TOTAL_PROBLEMS = 10
+
+elif level == 5:
+    OPERATORS = ["-"]
+    MIN_OPERAND = 11
+    MAX_OPERAND = 30
+    TOTAL_PROBLEMS = 15
+
+elif level == 6:
+    OPERATORS = ["-"]
+    MIN_OPERAND = 30
+    MAX_OPERAND = 50
+    TOTAL_PROBLEMS = 20    
 
 
 
